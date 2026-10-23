@@ -1,0 +1,36 @@
+
+.form-container {
+  max-width: 600px;
+  background: #ffffff;
+  padding: 32px;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.06);
+}
+
+.table th,
+.table td {
+  padding: 16px;
+}
+
+.table thead th {
+  white-space: nowrap;
+}
+
+footer {
+  font-size: 14px;
+}
+
+@media (max-width: 576px) {
+  .form-container {
+    padding: 22px;
+  }
+
+  .navbar .container {
+    gap: 8px;
+    flex-wrap: wrap;
+  }
+
+  .navbar-brand {
+    font-size: 17px;
+  }
+}
